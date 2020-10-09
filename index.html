@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rafael C. Moura</title>
+    <style type="text/css">
+    body{
+        background-color: black;
+    }
+    .tag {
+    bottom: auto;
+    top: 0px;
+    color: #ababaf;
+    
+    bottom: 0px;
+    left: 80px;
+    font-size: 18px;
+    font-family: cursive;
+       
+} 
+    .h1{
+        color: white;
+    }
+#container {
+    width: 900;
+    height: 200;
+    border: 1;
+    border-radius: 5;
+    border-color: black;
+    display: block;
+    margin: 0 auto;
+        
+    }
+#insta {
+    margin: 0 0 0 11px;
+    width: 80px;
+    height: 60px;
+    padding: 10;
+    position:absolute;
+    top:-800;
+    left:900px;
+}
+#github{
+    margin: 0 0 0 11px;
+    width: 80px;
+    height: 60px;
+    padding: 10;
+    position:absolute;
+    top:-800;
+    left:600px;
+}
+
+#linkedin{
+    margin: 0 0 0 11px;
+    width: 80px;
+    height: 60px;
+    padding: 10;
+    position:absolute;
+    top:-800;
+    left:300px;
+    border: black 1;
+}
+#trybe{
+    position:relative;
+    top:-300;
+    left:280px;
+}
+#foto{
+    position:relative;
+    top:-250;
+    left:230px;
+}
+    </style>
+</head>
+<body>
+    <span class="tag"> &nbsp;&lt;html&gt;</span><br>
+    <span class="tag"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;body&gt;</span><br><br>
+    <!--<span class="tag"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;img src='foto.jpg' alt='foto rafael'&gt;</span><br>
+    --><img id="foto" src="./rafael.jpg" width="200" alt="foto de Rafael">
+    <br><br>
+    <span class="tag"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;h1&gt;</span>
+    <h1 class="h1">Hi I'm Rafael Moura,
+         Web Developer learn at </h1><a href="https://www.betrybe.com/" target="_blank"><img id="trybe" src="https://uploads-ssl.webflow.com/5dbd9ce75ad64f24b67f0932/5dbee89d5ad64f08be85f340_BRANDwhite.png" width="100" alt="logo trybe"></a><br>
+    <span class="tag"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/h1&gt;</span><br><br>
+    
+    
+    <div id="container">
+        <div id="linkedin">
+            <a href="https://www.linkedin.com/in/rafaelcostamoura/" target="_blank"><img src="./linkedin.png" width="80px" height="60px" alt="Linkedin"></a>
+        </div>
+        <div id="github">
+            <a href="https://github.com/rafasysop" target="_blank"><img src="./github.png" width="80px" height="60px" alt="GitHub"></a>
+        </div>
+        <div id="insta">
+            <a href="https://www.instagram.com/rafasysop/" target="_blank"><img src="./insta.png" width="80px" height="60px" alt="Instagram"></a>
+        </div>
+
+        
+    </div>
+    
+    <br><br>
+    <br>
+    <span class="tag"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/body&gt;</span>
+    <br>
+    <span class="tag"> &nbsp;&lt;/html&gt;</span>
+
+    
+
+    <script>
+        const titulo = document.querySelector('h1');
+        function typeWrite(elemento){
+            const textoArray = elemento.innerHTML.split('');
+            elemento.innerHTML = '';
+            textoArray.forEach((letra, i) => {
+                setTimeout(function(){
+                    elemento.innerHTML += letra; 
+                }, 75 * i)
+            });
+        }
+        typeWrite(titulo);
+    </script>
+</body>
+</html>
