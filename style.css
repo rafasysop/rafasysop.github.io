@@ -100,6 +100,10 @@ div#ln{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+img#foto{
+    margin-left: 200px;
+    
+}
 #trybe{
     position:relative;
     top:-300;
@@ -140,4 +144,28 @@ div#css{
     margin-right: 50px;
     height: 20px;
     
+}
+div#redes{
+    position: absolute;
+    
+    margin-left: 60px;
+    width: 90%;
+    height: 30%;
+}
+div#linkedin{
+    position: relative;
+    float: left;
+    margin-top: 20px;
+}
+div#github{
+    position: relative;
+    margin-left: 300px;
+    margin-top: 20px;
+    float: left;
+}
+div#insta{
+    position: relative;
+    margin-left: 200px;
+    margin-top: 20px;
+    float: left;
 }

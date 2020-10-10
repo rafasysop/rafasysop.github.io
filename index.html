@@ -84,11 +84,30 @@
                         elemento.innerHTML += letra; 
                     }, 75 * i)
                 });
-                const img = "<br><br><a href='https://www.betrybe.com/' target='_blank'><img id='trybe' src='https://uploads-ssl.webflow.com/5dbd9ce75ad64f24b67f0932/5dbee89d5ad64f08be85f340_BRANDwhite.png' width='100' alt='logo trybe'></a><br>";
+                const logo = "<br><br><a href='https://www.betrybe.com/' target='_blank'><img id='trybe' src='https://uploads-ssl.webflow.com/5dbd9ce75ad64f24b67f0932/5dbee89d5ad64f08be85f340_BRANDwhite.png' width='100' alt='logo trybe'></a><br>";
                 
                     setTimeout(function(){
-                        elemento.innerHTML += img; 
+                        elemento.innerHTML += logo; 
                     }, 5000);
+
+
+                const linkedin = "<div id='redes'> <div id='linkedin'> <a href='https://www.linkedin.com/in/rafaelcostamoura/' target='_blank'><img src='./linkedin.png' width='80px' height='60px' alt='Linkedin'></a> </div>";
+
+                setTimeout(function(){
+                        elemento.innerHTML += linkedin; 
+                    }, 5500);
+
+                const github = " <div id='github'> <a href='https://github.com/rafasysop' target='_blank'><img src='./github.png' width='80px' height='60px' alt='GitHub'></a> </div>";
+               
+                setTimeout(function(){
+                        elemento.innerHTML += github; 
+                    }, 6000);
+
+                const instagram = "<div id='insta'><a href='https://www.instagram.com/rafasysop/' target='_blank'><img src='./insta.png' width='80px' height='60px' alt='Instagram'></a> </div></div>"
+
+                setTimeout(function(){
+                        elemento.innerHTML += instagram; 
+                    }, 6500); 
                 
             }
             typeWrite(titulo);
