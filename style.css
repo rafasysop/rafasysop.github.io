@@ -155,17 +155,17 @@ div#redes{
 div#linkedin{
     position: relative;
     float: left;
-    margin-top: 20px;
+    margin-top: 100px;
 }
 div#github{
     position: relative;
     margin-left: 300px;
-    margin-top: 20px;
+    margin-top: 100px;
     float: left;
 }
 div#insta{
     position: relative;
     margin-left: 200px;
-    margin-top: 20px;
+    margin-top: 100px;
     float: left;
 }
