@@ -97,7 +97,6 @@ div#ln{
     background: -webkit-linear-gradient(left, #0d7204 0%, #5ef159 100%);
     background: linear-gradient(to right,#0d7204 0%, #5ef159 100%);
 
-    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 img#foto{
