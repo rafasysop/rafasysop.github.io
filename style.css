@@ -42,7 +42,7 @@ body {
 }
 #conteudo2 {
     background-image: url("./bg.svg");
-    opacity: 0.05;
+    opacity: 0.1;
     position: fixed;
     left: 12%;
     top: 5%;
