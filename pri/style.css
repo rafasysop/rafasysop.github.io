@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.profile {
+    background-color: rgb(56, 82, 121);
+    width: 25%;
+    min-height: 94vh;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 20px;
+    min-width: 280px;
+    position: fixed;
+}
+
+.foto {
+    width: 35%;
+    align-self: center;
+    border: white 3px solid;
+    border-radius: 100%;
+}
+
+.profile ul {
+    margin-top: 35px;
+    color: white;
+    list-style: none;
+    font-size: max(1.8vw, 18px);
+}
+
+.profile ul a{
+    color: white;
+}
+
+.profile ul li {
+    display: flex;
+    padding: 5px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.profile ul li i {
+    font-size: 25px;
+    margin-right: 4%;
+}
+
+.content {
+    padding: 5% 3% 0px 3%;
+    color: black;
+    width: 60%;
+    min-height: 80vh;
+    font-size: max(0.5em, 15px);
+    display: flex;
+    flex-direction: column;
+    margin-left: max(300px, 26%);
+}
+
+.name {
+    font-size: max(2em, 15px);
+}
+
+.subtitulo {
+    font-size: max(1em, 15px);
+    margin-bottom: 5px;
+}
+
+.desc {
+    margin: 10px 0px 20px 0;
+    font-size: max(0.5em, 15px);
+    text-align: justify;
+}
+
+.exp {
+    margin-top: 3%;
+    display: flex;
+}
+
+.icon {
+    font-size: 1.5em;
+    margin-right: 2%;
+}
+
+.exp-table {
+    margin: 3% 0 3% 5%;
+}
+
+.tr {
+    padding: 10px;
+}
+
+.td-data {
+    width: 140px;
+}
+
+.empresa {
+    color: royalblue;
+    margin-bottom: 1%;
+}
+
+.forma {
+    margin-top: 3%;
+    display: flex;
+    margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 840px) {
+    .profile {
+        min-width: 90vw;
+        position: static;
+    }
+    .content {
+        width: 90vw;
+        margin-left: 0;
+    }
+  }
