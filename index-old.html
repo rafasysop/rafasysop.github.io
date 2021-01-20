@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="./style.css" />
+        <title>Portfólio Rafael C Moura</title>
+    </head>
+    <body>
+        <header id="topo">  </header>
+        <main id="container">
+            <div id="conteudo2"></div>
+             <div id="conteudo">
+
+                <img id="foto" src="rafael.jpg" width="200" alt="foto de Rafael">
+                <br><br>
+                <h1 class="fill">Hi I'm Rafael Moura,       Web Developer learn at </h1>
+                <br><br>
+             </div>
+            <div id="linhas">
+                <ul class="linhasC">
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                    <li>5</li>
+                    <li>6</li>
+                    <li>7</li>
+                    <li>8</li>
+                    <li>9</li>
+                    <li>10</li>
+                    <li>11</li>
+                    <li>12</li>
+                    <li>13</li>
+                    <li>14</li>
+                    <li>15</li>
+                    <li>16</li>
+                    <li>17</li>
+                    <li>18</li>
+                    <li>19</li>
+                    <li>20</li>
+                    <li>21</li>
+                    <li>22</li>
+                    
+                </ul>
+
+            </div>     
+        </main>
+        <aside id="menulateral"> 
+            <ul id="nav">
+                <li>Home</li>
+                <li>Portfólio</li>
+                <li>Estudando</li>
+                <li>Perfil</li>
+            </ul>     
+        </aside>
+       
+        
+        <footer id="rodape"> 
+            <div id="master">master*</div>
+            <div id="css">CSS</div> 
+            <div id="html">HTML</div>
+            <div id="utf">UTF-8</div>
+            <div id="spaces"> Spaces: 4</div>
+            <div id="ln">Ln 20, Col 35</div>
+        </footer>
+
+        <script>
+            const titulo = document.querySelector('h1');
+            function typeWrite(elemento){
+                const textoArray = elemento.innerHTML.split('');
+                elemento.innerHTML = '';
+                textoArray.forEach((letra, i) => {
+                    setTimeout(function(){
+                        elemento.innerHTML += letra; 
+                    }, 75 * i)
+                });
+                const logo = "<br><br><a href='https://www.betrybe.com/' target='_blank'><img id='trybe' src='https://uploads-ssl.webflow.com/5dbd9ce75ad64f24b67f0932/5dbee89d5ad64f08be85f340_BRANDwhite.png' width='180' alt='logo trybe'></a><br>";
+                
+                    setTimeout(function(){
+                        elemento.innerHTML += logo; 
+                    }, 4000);
+
+
+                const linkedin = "<div id='linkedin'> <a href='https://www.linkedin.com/in/rafaelcostamoura/' target='_blank'><img src='./linkedin.png' width='40px' height='30px' alt='Linkedin'></a> </div>";
+
+                setTimeout(function(){
+                        elemento.innerHTML += linkedin; 
+                    }, 4400);
+
+                const github = " <div id='github'> <a href='https://github.com/rafasysop' target='_blank'><img src='./github.png' width='40px' height='30px' alt='GitHub'></a> </div>";
+               
+                setTimeout(function(){
+                        elemento.innerHTML += github; 
+                    }, 4700);
+
+                const instagram = "<div id='insta'><a href='https://www.instagram.com/rafasysop/' target='_blank'><img src='./insta.png' width='40px' height='30px' alt='Instagram'></a> </div></div>"
+
+                setTimeout(function(){
+                        elemento.innerHTML += instagram; 
+                    }, 5000); 
+                
+            }
+            typeWrite(titulo);
+        </script>
+
+    </body>
+</html>
