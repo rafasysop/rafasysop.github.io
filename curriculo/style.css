@@ -12,7 +12,7 @@
 
 .profile {
     background-color: rgb(56, 82, 121);
-    width: 25%;
+    width: 30%;
     min-height: 94vh;
     display: flex;
     flex-direction: column;
@@ -23,7 +23,7 @@
 }
 
 .foto {
-    width: 35%;
+    width: 40%;
     align-self: center;
     border: white 3px solid;
     border-radius: 100%;
@@ -55,12 +55,12 @@
 .content {
     padding: 5% 3% 0px 3%;
     color: black;
-    width: 60%;
+    width: 70%;
     min-height: 80vh;
-    font-size: max(0.5em, 15px);
+    font-size: max(0.8em, 15px);
     display: flex;
     flex-direction: column;
-    margin-left: max(300px, 26%);
+    margin-left: max(300px, 32%);
 }
 
 .name {
