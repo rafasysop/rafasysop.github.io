@@ -60,7 +60,12 @@ body {
 }
 
 .descricao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     width: 100vw;
+    height: 25vh;
     background: linear-gradient(var(--color-roxo), var(--color-roxo-l));
     padding: 1rem 0;
     text-align: center;
