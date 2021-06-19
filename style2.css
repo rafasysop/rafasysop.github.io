@@ -1,0 +1,132 @@
+:root {
+    --color-black: rgb(33, 33, 33);
+    --color-black-hover: rgb(63, 60, 60);
+    --color-gray: rgb(165, 161, 161);
+    --color-golden: rgb(223, 210, 30);
+    --color-golden-s: rgba(223, 210, 30, .8);
+    --color-white: rgb(255, 255, 255);
+    --color-roxo: rgb(62, 4, 128);
+    --color-roxo-l: rgb(96, 16, 187);
+}
+
+html {
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--color-black)
+}
+
+.header-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 2rem;
+}
+
+.foto {
+    border: .1rem dashed var(--color-white);
+    width: 15rem;
+    border-radius: 100%;
+    margin: 2rem;
+    transform: scale(.9);
+    transition: all ease .3s;
+}
+
+.foto:hover {
+    box-shadow: 0 0 1.5rem var(--color-golden-s);
+    border-color: var(--color-golden);
+    border-radius: 0;
+    transform: scale(1.1);
+}
+
+.descricao {
+    width: 100vw;
+    background: linear-gradient(var(--color-roxo), var(--color-roxo-l));
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.title-name {
+    color: var(--color-white);
+    font-size: 3rem;
+    margin: 2rem;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    color: var(--color-white);
+    margin-top: -15px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.insta, .github, .linkedin {
+    filter: invert(80%) sepia(80%) saturate(0%) hue-rotate(86deg) brightness(100%) contrast(100%);
+    margin: .5rem;
+}
+
+.insta:hover, .github:hover, .linkedin:hover {
+    transform: scale(1.2);
+}
+
+.main-container {
+    color: var(--color-white);
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+
+.main-container a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.main-container img {
+    max-width: 90vw;
+}
+
+.card {
+    max-width: 60vw ;
+    cursor: pointer;
+    box-shadow: 0 0 1rem var(--color-white);
+    border-radius: 1rem;
+    margin: 3rem 0;
+    text-align: center;
+    transform: scale(.9);
+    transition: all .3s ease;
+    padding: 1rem;
+}
+
+.card:hover {
+    background-color: var(--color-black-hover);
+    box-shadow: 0 0 1rem var(--color-golden-s);
+    transform: scale(1.1);
+}
+
+.title-project {
+    text-align: center;
+    width: 100%;
+}
+
+.title-card {
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+
+.card img {
+    width: 55vw;
+    border-radius: .5rem;
+}
