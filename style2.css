@@ -62,20 +62,19 @@ body {
 .descricao {
     width: 100vw;
     background: linear-gradient(var(--color-roxo), var(--color-roxo-l));
-    padding: 3rem 0;
+    padding: 1rem 0;
     text-align: center;
 }
 
 .title-name {
     color: var(--color-white);
     font-size: 3rem;
-    margin: 2rem;
 }
 
 .subtitle {
     font-size: 1.5rem;
     color: var(--color-white);
-    margin-top: -15px;
+    margin-bottom: 15px;
 }
 
 .icons {
