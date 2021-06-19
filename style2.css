@@ -23,6 +23,18 @@ body {
     background-color: var(--color-black)
 }
 
+.loading {
+    background-color: var(--color-black);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 5;
+}
+
 .header-container {
     align-items: center;
     display: flex;
@@ -129,16 +141,4 @@ body {
 .card img {
     width: 55vw;
     border-radius: .5rem;
-}
-
-.loading {
-    background-color: var(--color-black);
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    z-index: 5;
 }

@@ -10,7 +10,7 @@ const loading = document.querySelector('.loading')
 const tl = new TimelineMax();
 
 tl
-    .to(loading, .1, {display: 'none'})
+    .to(loading, .15, {display: 'none'})
     .from(foto, 1, {y: '-80vh', opacity: 0})
     .from(descricao, 1, {height: 0, padding: 0})
     .from(titleName, .9, { opacity: 0 })
