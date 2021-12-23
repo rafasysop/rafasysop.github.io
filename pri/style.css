@@ -26,7 +26,7 @@
     width: 35%;
     align-self: center;
     border: white 3px solid;
-    border-radius: 100%;
+    border-radius: 50%;
 }
 
 .profile ul {
@@ -42,7 +42,8 @@
 
 .profile ul li {
     display: flex;
-    padding: 5px;
+    font-size: 20px;
+    padding: 10px 5px;
     justify-content: flex-start;
     align-items: center;
 }
@@ -68,13 +69,13 @@
 }
 
 .subtitulo {
-    font-size: max(1em, 15px);
+    font-size: max(1em, 20px);
     margin-bottom: 5px;
 }
 
 .desc {
     margin: 10px 0px 20px 0;
-    font-size: max(0.5em, 15px);
+    font-size: max(0.5em, 18px);
     text-align: justify;
 }
 
