@@ -1,0 +1,9 @@
+{
+  "short_name": "Portfolio Rafael Moura",
+  "name": "Portfolio Rafael Moura",
+  "icons": [],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#ffffff",
+  "background_color": "#2b2b2b"
+}
